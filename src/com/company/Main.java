@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
         BufferedImage img = null;
         try {
-            img = ImageIO.read(new File("D:\\work\\files\\logo.jpg"));
+            img = ImageIO.read(new File("загружено.bmp"));
             System.out.println(img);
         } catch (IOException e) {
 
